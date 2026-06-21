@@ -1,0 +1,27 @@
+# AGGRNet dependencies (Ultralytics v8.3.153 runtime).
+# Install with:  pip install -r requirements.txt
+# Do NOT install the `ultralytics` PyPI package: the modified package in this
+# repo must take precedence. Run all scripts from the repository root.
+
+# --- Core deep learning ---
+torch>=2.0.0
+torchvision>=0.15.0
+
+# --- Numerics / IO ---
+numpy>=1.23.0
+opencv-python>=4.6.0
+pillow>=9.0.0
+pyyaml>=5.3.1
+scipy>=1.4.1
+requests>=2.23.0
+tqdm>=4.64.0
+psutil
+py-cpuinfo
+
+# --- Plotting / logging ---
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# --- Evaluation export (pred.py) ---
+pandas>=1.1.4
+openpyxl>=3.0.0
